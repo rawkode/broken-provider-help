@@ -1,0 +1,3 @@
+name: broken-providers
+runtime: nodejs
+description: A minimal Kubernetes TypeScript Pulumi program

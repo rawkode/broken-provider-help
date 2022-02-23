@@ -1,6 +1,6 @@
 import * as k8s from "@pulumi/kubernetes";
 import * as kx from "@pulumi/kubernetesx";
-import * as certManager from "@pulumiverse/kube-cert-manager";
+import * as certManager from "@pulumiverse/kubernetes-cert-manager";
 
 const appLabels = { app: "nginx2" };
 const deployment = new k8s.apps.v1.Deployment("nginx2", {
